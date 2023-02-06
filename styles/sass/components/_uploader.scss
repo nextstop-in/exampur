@@ -1,0 +1,50 @@
+.uploader__box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: -20rem;
+  z-index: 2;
+}
+.dropzone__uploader {
+  position: relative;
+  text-align: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  height: 40rem;
+  width: 70vw;
+  border-radius: 2.5rem;
+  background: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  transition: all 0.3s;
+  &:hover {
+    box-shadow: 0 1rem 2rem #a8eb12;
+  }
+}
+
+.image {
+  max-width: 25%;
+  // max-height: 100%;
+}
+
+.drop__zone__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

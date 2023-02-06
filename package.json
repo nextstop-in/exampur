@@ -21,6 +21,7 @@
     "react-dropzone": "^14.2.3"
   },
   "devDependencies": {
-    "@types/node": "18.11.18"
+    "@types/node": "18.11.18",
+    "sass": "^1.58.0"
   }
 }
